@@ -1,4 +1,6 @@
-Explanation of Changes and Considerations
+An all in one Nuclear Magnetic Resonance Graphics/Audio Server that tx/rx P2P on Radio.
+
+Explanation of Changes and Considerations from previous prototype programs:
 
     RadioInterface Class:
         Replaces socket: This is your abstraction layer for the radio hardware. You'd replace serial.Serial with the appropriate library for your specific radio module (e.g., spidev for SPI-based modules like nRF24L01, or a dedicated library for LoRa/XBee).
